@@ -24,7 +24,7 @@ html body p {
 }
 
 html body .main-visual {
-  background-image: url(../img/bg_header_pink.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_header_pink.jpg?raw=true);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -90,7 +90,7 @@ html body .main-visual .content .download-link {
 html body .main-visual .content .download-link a .app-store {
   width: 164px;
   height: 49px;
-  background-image: url(../img/Badge_Appstore.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/Badge_Appstore.png?raw=true);
   background-size: cover;
   margin-right: 16px;
 }
@@ -98,7 +98,7 @@ html body .main-visual .content .download-link a .app-store {
 html body .main-visual .content .download-link a .google-play {
   width: 164px;
   height: 49px;
-  background-image: url(../img/Badge_Googleplaystore.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/Badge_Googleplaystore.png?raw=true.png?raw=true);
   background-size: cover;
 }
 
@@ -136,15 +136,15 @@ html body .introduction .row .item {
 }
 
 html body .introduction .row .item:first-child {
-  background-image: url(../img/bg_service01.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_service01.jpg?raw=true);
 }
 
 html body .introduction .row .item:nth-child(2) {
-  background-image: url(../img/bg_service02.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_service02.jpg?raw=true);
 }
 
 html body .introduction .row .item:last-child {
-  background-image: url(../img/bg_service03.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_service03.jpg?raw=true);
 }
 
 html body .introduction .row .item .title {
@@ -190,7 +190,7 @@ html body .price .row .price1 h2 {
 }
 
 html body .price .row .price1 .bouquet {
-  background-image: url(../img/price_bouquetimg.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/price_bouquetimg.png?raw=true);
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: center;
@@ -294,7 +294,7 @@ html body .flower .wrap .title {
 }
 
 html body .flower .wrap .flower-img {
-  background-image: url(../img/bg_flower.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_flower.jpg?raw=true.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -418,7 +418,7 @@ html body .vase .wrap .discount p span {
 }
 
 html body .vase .wrap .vase-img {
-  background-image: url(../img/bg_vase.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_vase.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -510,17 +510,17 @@ html body .vase .wrap .vase-content .vases .vase-item p {
 }
 
 html body .vase .wrap .vase-content .vases .bell {
-  background-image: url(../img/vase_bell.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/vase_bell.jpg?raw=true);
   background-size: cover;
 }
 
 html body .vase .wrap .vase-content .vases .moon {
-  background-image: url(../img/vase_moon.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/vase_moon.jpg?raw=true);
   background-size: cover;
 }
 
 html body .vase .wrap .vase-content .vases .candle {
-  background-image: url(../img/vase_candle.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/vase_candle.jpg?raw=true);
   background-size: cover;
 }
 
@@ -642,7 +642,7 @@ html body .download .wrap .bg-img {
   width: 70vmin;
   min-height: 278px;
   margin: 0 auto;
-  background-image: url(../img/bg_download2.jpg);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/bg_download2.jpg?raw=true);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -675,7 +675,7 @@ html body footer {
 html body footer a .instagram {
   width: 64px;
   height: 64px;
-  background-image: url(../img/icon_instagram.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/icon_instagram.png?raw=true);
   background-size: cover;
   position: absolute;
   top: 24px;
@@ -752,7 +752,7 @@ html body .download-banner .container {
 html body .download-banner .container a .app-store {
   width: 164px;
   height: 49px;
-  background-image: url(../img/Badge_Appstore.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/Badge_Appstore.png?raw=true);
   background-size: cover;
   margin-right: 16px;
 }
@@ -760,7 +760,7 @@ html body .download-banner .container a .app-store {
 html body .download-banner .container a .google-play {
   width: 164px;
   height: 49px;
-  background-image: url(../img/Badge_Googleplaystore.png);
+  background-image: url(https://github.com/kimi-yoshi/copy-site3/blob/main/img/Badge_Googleplaystore.png?raw=true.png);
   background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
