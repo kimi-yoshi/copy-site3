@@ -1,0 +1,766 @@
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+html body h1, html body h2, html body h3, html body h4, html body h5, html body p {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+html body h1, html body h2, html body h3, html body h4, html body h5 {
+  font-size: 2rem;
+}
+
+html body p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+html body .main-visual {
+  background-image: url(../img/bg_header_pink.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 48px;
+  text-align: center;
+  position: relative;
+}
+
+html body .main-visual .logo img {
+  width: 131px;
+  margin: 50px 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  html body .main-visual .logo img {
+    margin-top: 15vh;
+  }
+  html body .main-visual .logo img h2 {
+    font-size: 2.6rem;
+  }
+  html body .main-visual .logo img h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .main-visual .title .title-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+html body .main-visual .content {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+html body .main-visual .content .download-link {
+  display: none;
+  height: 97px;
+  padding: 24px 0;
+}
+
+@media screen and (min-width: 768px) {
+  html body .main-visual .content .download-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body .main-visual .content .download-link h2 {
+    font-size: 2.6rem;
+  }
+  html body .main-visual .content .download-link h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .main-visual .content .download-link a .app-store {
+  width: 164px;
+  height: 49px;
+  background-image: url(../img/Badge_Appstore.png);
+  background-size: cover;
+  margin-right: 16px;
+}
+
+html body .main-visual .content .download-link a .google-play {
+  width: 164px;
+  height: 49px;
+  background-image: url(../img/Badge_Googleplaystore.png);
+  background-size: cover;
+}
+
+html body .main-visual .content .caution {
+  margin: 0 auto;
+  color: white;
+}
+
+html body .main-visual .content .caution .caution-text {
+  text-align: center;
+}
+
+html body .introduction .row {
+  width: 100%;
+  margin: 0;
+}
+
+html body .introduction .row .item {
+  min-height: 540px;
+  padding: 8vmin 6vmin;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  html body .introduction .row .item {
+    height: 80vh;
+  }
+  html body .introduction .row .item h2 {
+    font-size: 2.6rem;
+  }
+  html body .introduction .row .item h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .introduction .row .item:first-child {
+  background-image: url(../img/bg_service01.jpg);
+}
+
+html body .introduction .row .item:nth-child(2) {
+  background-image: url(../img/bg_service02.jpg);
+}
+
+html body .introduction .row .item:last-child {
+  background-image: url(../img/bg_service03.jpg);
+}
+
+html body .introduction .row .item .title {
+  color: white;
+  font-size: 2.2rem;
+}
+
+html body .introduction .row .item .text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+html body .price {
+  margin: 0 auto;
+  text-align: center;
+}
+
+html body .price .row {
+  width: 100%;
+  margin: 0;
+}
+
+html body .price .row .price1 {
+  padding: 16vmin 6vmin 20vmin;
+  background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 768px) {
+  html body .price .row .price1 {
+    padding: 6vmin;
+  }
+  html body .price .row .price1 h2 {
+    font-size: 2.6rem;
+  }
+  html body .price .row .price1 h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .price .row .price1 h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+html body .price .row .price1 .bouquet {
+  background-image: url(../img/price_bouquetimg.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+
+html body .price .row .price1 .bouquet .trial {
+  width: 125px;
+  margin: 0 auto;
+  position: absolute;
+  top: -24px;
+  left: 0px;
+  right: 0px;
+}
+
+html body .price .row .price1 p {
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+
+html body .price .row .price1 .product {
+  font-weight: bold;
+}
+
+html body .price .row .price1 .product span {
+  font-size: 2.0rem;
+}
+
+html body .price .row .price2 {
+  padding: 16vmin 0 20vmin;
+}
+
+@media screen and (min-width: 768px) {
+  html body .price .row .price2 {
+    padding: auto 6vmin;
+  }
+  html body .price .row .price2 h2 {
+    font-size: 2.6rem;
+  }
+  html body .price .row .price2 h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .price .row .price2 h2 {
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+html body .price .row .price2 img {
+  width: 200px;
+}
+
+html body .flower .wrap {
+  background-color: #ead5dc;
+  padding: 16vmin 6vmin 20vmin;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  html body .flower .wrap {
+    height: 730px;
+    padding: 0 4vmin;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  html body .flower .wrap h2 {
+    font-size: 2.6rem;
+  }
+  html body .flower .wrap h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .flower .wrap .title {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  html body .flower .wrap .title {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50%;
+    margin-top: 130px;
+  }
+  html body .flower .wrap .title h2 {
+    font-size: 2.6rem;
+  }
+  html body .flower .wrap .title h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .flower .wrap .flower-img {
+  background-image: url(../img/bg_flower.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vw;
+  max-height: 266px;
+}
+
+@media screen and (min-width: 768px) {
+  html body .flower .wrap .flower-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 50%;
+    max-height: 730px;
+  }
+  html body .flower .wrap .flower-img h2 {
+    font-size: 2.6rem;
+  }
+  html body .flower .wrap .flower-img h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .flower .wrap .text {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  html body .flower .wrap .text {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 50%;
+  }
+  html body .flower .wrap .text h2 {
+    font-size: 2.6rem;
+  }
+  html body .flower .wrap .text h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .flower .wrap .text h3 {
+  font-weight: normal;
+  margin: 30px 0 10px;
+}
+
+html body .flower .wrap .text p {
+  text-align: justify;
+}
+
+html body .vase .wrap {
+  background-color: #e7e3df;
+  padding: 16vmin 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  html body .vase .wrap {
+    height: 810px;
+    padding: 10vmin 1vmin 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  html body .vase .wrap h2 {
+    font-size: 2.6rem;
+  }
+  html body .vase .wrap h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html body .vase .wrap .title {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 50%;
+    margin: 0;
+  }
+  html body .vase .wrap .title h2 {
+    font-size: 2.6rem;
+  }
+  html body .vase .wrap .title h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .vase .wrap .discount p {
+  text-align: center;
+  margin: 16px 0 0;
+}
+
+html body .vase .wrap .discount p span {
+  font-weight: bold;
+  padding: 5px;
+  background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  html body .vase .wrap .discount {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  html body .vase .wrap .discount h2 {
+    font-size: 2.6rem;
+  }
+  html body .vase .wrap .discount h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .vase .wrap .vase-img {
+  background-image: url(../img/bg_vase.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100vmin;
+  height: 100vmin;
+}
+
+@media screen and (min-width: 460px) {
+  html body .vase .wrap .vase-img {
+    background-size: contain;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html body .vase .wrap .vase-img {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    width: 50%;
+    max-height: 730px;
+  }
+  html body .vase .wrap .vase-img h2 {
+    font-size: 2.6rem;
+  }
+  html body .vase .wrap .vase-img h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .vase .wrap .vase-content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2vmin 6vmin;
+}
+
+@media screen and (min-width: 460px) {
+  html body .vase .wrap .vase-content {
+    padding: 2vmin 4vmin;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html body .vase .wrap .vase-content {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 50%;
+    padding: 0;
+  }
+  html body .vase .wrap .vase-content h2 {
+    font-size: 2.6rem;
+  }
+  html body .vase .wrap .vase-content h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .vase .wrap .vase-content .vase-text {
+  padding-top: 10px;
+}
+
+html body .vase .wrap .vase-content .vases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 24px 0;
+}
+
+html body .vase .wrap .vase-content .vases .vase-item {
+  height: 116px;
+  max-width: 98px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+}
+
+html body .vase .wrap .vase-content .vases .vase-item p {
+  text-align: center;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+}
+
+html body .vase .wrap .vase-content .vases .bell {
+  background-image: url(../img/vase_bell.jpg);
+  background-size: cover;
+}
+
+html body .vase .wrap .vase-content .vases .moon {
+  background-image: url(../img/vase_moon.jpg);
+  background-size: cover;
+}
+
+html body .vase .wrap .vase-content .vases .candle {
+  background-image: url(../img/vase_candle.jpg);
+  background-size: cover;
+}
+
+html body .vase .wrap .vase-content .sale-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .vase .wrap .vase-content .sale-price .sale-period {
+  margin-right: 20px;
+}
+
+html body .vase .wrap .vase-content .sale-price .sale-period p {
+  padding: 4px 4px;
+  border: 2px solid black;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+html body .vase .wrap .vase-content .sale-price .sale-price-text h3 {
+  font-size: 1.8rem;
+}
+
+html body .vase .wrap .vase-content .sale-price .sale-price-text p {
+  font-size: 1.3rem;
+}
+
+html body .vase .wrap .vase-content .footnote p {
+  margin: 8px 0 0;
+}
+
+html body .service .container {
+  text-align: center;
+  padding: 60px 0;
+}
+
+html body .service .container .row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+html body .service .container .row .col-12 {
+  padding-top: 32px;
+  min-width: 223px;
+}
+
+html body .service .container .row .col-12 img {
+  width: 80px;
+}
+
+html body .service .container .row .col-12 h3 {
+  margin-bottom: 10px;
+}
+
+html body .service .container .row .col-12 p {
+  text-align: center;
+}
+
+html body .download {
+  background-color: #efdfc5;
+}
+
+html body .download .wrap {
+  text-align: center;
+  padding: 16vmin 4vmin 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+@media screen and (min-width: 768px) {
+  html body .download .wrap {
+    height: 420px;
+    padding: 0 6vmin;
+  }
+  html body .download .wrap h2 {
+    font-size: 2.6rem;
+  }
+  html body .download .wrap h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html body .download .wrap .logo {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50%;
+    margin-top: 70px;
+  }
+  html body .download .wrap .logo h2 {
+    font-size: 2.6rem;
+  }
+  html body .download .wrap .logo h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .download .wrap .logo .logo-img img {
+  width: 131px;
+  margin-bottom: 20px;
+}
+
+html body .download .wrap .logo .title .title-text {
+  color: #3f434a;
+  font-size: 20px;
+  text-align: center;
+}
+
+html body .download .wrap .bg-img {
+  height: 50vmin;
+  width: 70vmin;
+  min-height: 278px;
+  margin: 0 auto;
+  background-image: url(../img/bg_download2.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  html body .download .wrap .bg-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+  }
+  html body .download .wrap .bg-img h2 {
+    font-size: 2.6rem;
+  }
+  html body .download .wrap .bg-img h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body footer {
+  background-color: #3f434a;
+  color: white;
+  padding: 8vmin 8vmin 32vmin;
+  position: relative;
+}
+
+html body footer a .instagram {
+  width: 64px;
+  height: 64px;
+  background-image: url(../img/icon_instagram.png);
+  background-size: cover;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+html body footer ul {
+  margin-bottom: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  html body footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 36px;
+  }
+  html body footer ul h2 {
+    font-size: 2.6rem;
+  }
+  html body footer ul h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body footer ul li {
+  margin-bottom: 16px;
+}
+
+html body footer .copyright {
+  text-align: center;
+  color: #fff;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 124px;
+  right: 0;
+  left: 0;
+}
+
+html body .download-banner {
+  width: 100%;
+  height: 100px;
+  padding: 24px 16px;
+  background-color: white;
+  opacity: .8;
+  position: fixed;
+  bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  html body .download-banner {
+    display: none;
+  }
+  html body .download-banner h2 {
+    font-size: 2.6rem;
+  }
+  html body .download-banner h3 {
+    font-size: 2.2rem;
+  }
+}
+
+html body .download-banner .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .download-banner .container a .app-store {
+  width: 164px;
+  height: 49px;
+  background-image: url(../img/Badge_Appstore.png);
+  background-size: cover;
+  margin-right: 16px;
+}
+
+html body .download-banner .container a .google-play {
+  width: 164px;
+  height: 49px;
+  background-image: url(../img/Badge_Googleplaystore.png);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
